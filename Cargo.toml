@@ -1,0 +1,7 @@
+[package]
+name = "isotp_local"
+version = "0.1.0"
+edition = "2021"
+description = "Local-only CAN ISO-TP (ISO 15765-2) codec, segmentation and reassembly toolkit"
+
+[dependencies]
