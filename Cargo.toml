@@ -1,0 +1,13 @@
+[package]
+name = "isotp_local"
+version = "0.1.0"
+edition = "2021"
+description = "Local-only ISO-TP (ISO 15765-2) codec, segmentation and reassembly toolkit"
+
+[lib]
+name = "isotp_local"
+path = "src/lib.rs"
+
+[[bin]]
+name = "isotp_verify"
+path = "src/bin/isotp_verify.rs"
